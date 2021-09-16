@@ -87,7 +87,7 @@ let someString = 'Hw are yu ding tday?';
 ---
 May 2016 - up to this day - **"Winncom Technologies CA"**
    * Uzbekistan - [Winncom Technologies](https://winncom.com)
-   * Information technologies, system integration, Internet
+   * **Company occupation field:** Information technologies, system integration, Internet
 
    * **Occupation:**  Telecommunications engineer
    * ** Job obligations:** 
@@ -100,7 +100,7 @@ May 2016 - up to this day - **"Winncom Technologies CA"**
 ---
 September 2013- May 2016 - **OOO "Nano Telecom"**
    * Uzbekistan - [Nano Telecom](https://nano.uz)
-   * Information technologies, Internet Service Provider
+   * **Company occupation field:** Information technologies, Internet Service Provider
 
    * **Occupation:** Leading network administrator, network administrator, on-shift administrator 
 
@@ -120,7 +120,7 @@ September 2009 - September 2013 **"Tashkent University of Information Technologi
 ---
 September 2004 - September 2009 **РСУПЦ "UzbekUkuvAvtomatika"**
    * Uzbekistan
-   * Company occupation field: Information Technologies, IT consulting, IT service
+   * **Company occupation field:** Information Technologies, IT consulting, IT service
 
    * **Occupation:**  2 category engineer, 3 category engineer, technician.
 
