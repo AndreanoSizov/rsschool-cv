@@ -7,9 +7,8 @@
    * E-mail#: andreano.mpe@gmail.com
 
 
-Looking for a job position of the junior web developer in your company.
-
-Have a big experience in computer networking field, but love to programming and wish to change my current occupation. 
+*I'm looking for a job position of the junior web developer in your company.*
+*Have a big experience in computer networking field, but love to programming and wish to change my current occupation.*
 
 
 ## Skills
