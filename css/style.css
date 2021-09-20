@@ -1,0 +1,174 @@
+/* base styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #2A2A2A;
+    font-family: 'Roboto';
+    background: #C8C7CB;
+}
+
+a {
+    color: #363636;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* base styles end*/
+
+
+.bold_text {
+    font-weight: 600;
+}
+
+.item__header {
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.item__list {
+    margin-left: 15px;
+}
+
+/* header */
+
+.header {
+    background: #3b5169;
+}
+
+.header__content {
+    display: flex;
+}
+
+.header__text {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-size: 65px;
+    text-transform: uppercase;
+}
+
+.header__subtitle {
+    font-size: 35px;
+    text-align: justify;
+}
+/* header end */
+
+
+
+/* main */
+
+.main {
+    min-height: 600px;
+}
+
+.main__item-header {
+    padding-bottom: 20px;
+}
+
+.main__item-header::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #18232F;
+    display: block;
+}
+
+.main__left {
+    background: #C9D3C9;
+    min-height: 100%;
+    padding-bottom: 30px;
+    border-left: 2px solid #18232F;
+}
+
+.main__left-item,
+.main__right-item {
+    padding-top: 50px;
+}
+
+.main__left-item {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+}
+
+.main__left-contacts {
+    margin-top: 10px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+.main__right {
+    background: #C8C7CB;
+    min-height: 100%;
+    padding-bottom: 30px;
+    border-right: 2px solid #18232F;
+}
+
+.main__right-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C8C7CB;
+}
+
+.main__code_position {
+    align-self: flex-start;
+}
+
+.main__code_styles {
+    width: 90%;
+    border: none;
+}
+
+ol.linenums li {
+    color: #18232f;
+}
+
+/* main end */
+
+/* footer */
+
+.footer {
+    background: #3b5169;
+    height: 100px;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.footer__logo {
+    width: 100px;
+}
+
+.footer__text,
+.footer__text-year {
+    color: #fff;
+}
+
+.footer__git-link {
+    color: #fff;
+}
+/* footer end */
+
+
+/* 
+ Code marker - https://prowebmastering.ru/podsvetka-coda-na-sayte.html
+
+*/
