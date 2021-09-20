@@ -9,10 +9,11 @@
 body {
     color: #2A2A2A;
     font-family: 'Roboto';
+    background: #C8C7CB;
 }
 
 a {
-    color: #fff;
+    color: #363636;
 }
 
 .container {
@@ -40,12 +41,15 @@ a {
 /* header */
 
 .header {
-    background: #18232F;
+    background: #3b5169;
+}
+
+.header__content {
+    display: flex;
 }
 
 .header__text {
     color: #fff;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -75,6 +79,14 @@ a {
     padding-bottom: 20px;
 }
 
+.main__item-header::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #18232F;
+    display: block;
+}
+
 .main__left {
     background: #C9D3C9;
     min-height: 100%;
@@ -87,6 +99,11 @@ a {
     padding-top: 50px;
 }
 
+.main__left-item {
+    font-family: 'Myriad Pro';
+    font-size: 18px;
+}
+
 .main__left-contacts {
     margin-top: 10px;
     max-width: 600px;
@@ -94,10 +111,30 @@ a {
 }
 
 .main__right {
-    background: #fff;
+    background: #C8C7CB;
     min-height: 100%;
     padding-bottom: 30px;
     border-right: 2px solid #18232F;
+}
+
+.main__right-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C8C7CB;
+}
+
+.main__code_position {
+    align-self: flex-start;
+}
+
+.main__code_styles {
+    width: 90%;
+    border: none;
+}
+
+ol.linenums li {
+    color: #18232f;
 }
 
 /* main end */
@@ -105,7 +142,7 @@ a {
 /* footer */
 
 .footer {
-    background: #18232F;
+    background: #3b5169;
     height: 100px;
 }
 
@@ -124,6 +161,14 @@ a {
 .footer__text-year {
     color: #fff;
 }
+
+.footer__git-link {
+    color: #fff;
+}
 /* footer end */
 
-/* https://www.canva.com/ru_ru/shablony/EAD0IkQwCiw-sinee-prostoe-akademiceskoe-rezume/ */
+
+/* 
+ Code marker - https://prowebmastering.ru/podsvetka-coda-na-sayte.html
+
+*/
